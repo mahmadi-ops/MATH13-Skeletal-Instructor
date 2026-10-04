@@ -6,7 +6,7 @@
         <!-- Selects which @component-marked elements survive assembly.  The
              interactives and videos are marked component="web": they are kept
              here and dropped by publication-print.ptx. -->
-        <version include="web"/>
+        <version include="web binomial"/>
     </source>
 
     <common>

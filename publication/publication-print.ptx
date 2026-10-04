@@ -3,7 +3,7 @@
 <!--
   Publication file for the "print" (PDF) target only.
 
-  Identical to publication.ptx except for <version include="print"/>.  The
+  Identical to publication.ptx except for <version include="print binomial"/>.  The
   interactives (GeoGebra, Desmos) and the manim videos are marked
   component="web" in the source, so they are assembled into the HTML builds
   and dropped from the PDF, where they could only ever appear as a dead
@@ -17,7 +17,7 @@
         <!-- Selects which @component-marked elements survive assembly.  The
              interactives and videos are marked component="web", so they are
              dropped here and kept by publication.ptx. -->
-        <version include="print"/>
+        <version include="print binomial"/>
     </source>
 
     <common>
