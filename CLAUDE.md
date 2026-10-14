@@ -50,14 +50,11 @@ convention). Repo-specific facts:
   completed-notes ids, is in MATH13-Instructor. It is live, the desk
   script toggles it by the key `exam-1`, and the desk panel does not
   list it.
-- `grade-calculator.ptx` (page `worksheet-grade-calculator.html`,
-  "Your Course Grade") is in **this instructor book only** for now: the
-  dropped-midterm rule (lowest of the three midterms dropped, best two out
-  of 40 scaled to the 60 midterm points), a worked C+ to B+ example, and a
-  calculator, `assets/grade-calculator.html`, in an `interactive iframe`
-  marked `component="web"`. It is included last in `exercises.ptx` so every
-  other worksheet keeps its student-book number. To post it to students,
-  copy both files to M13-Skeletal-Notes and add the same `xi:include`.
+- The dropped-midterm rule and the grade calculator that used to be the
+  worksheet "Your Course Grade" here now live in the syllabus
+  (`mahmadi-ops/MATH13-Syllabus-Fall2026`, subsection
+  `drop-lowest-midterm` of `source/grading.ptx`, with
+  `assets/grade-calculator.html`); do not add them back to this book.
 - Postings are tracked only on the desk panel — the syllabus's
   posted-materials table was removed at the instructor's request, so no
   posting action touches the syllabus repo. Page filenames come from
