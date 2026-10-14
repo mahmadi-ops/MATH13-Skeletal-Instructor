@@ -16,7 +16,7 @@
 
   Empty boxes count as 0, so with scores still missing the page shows the
   lowest total the entered scores can give (every rule here only rises as
-  scores are added). Light only, like the book's other iframes; fonts are
+  scores are added), and no letter grade until every box is filled. Light only, like the book's other iframes; fonts are
   the book's own (Open Sans, PT Serif).
 -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -111,7 +111,7 @@
     <h2>Your course grade</h2>
     <div class="total"><span class="num" id="total">&nbsp;</span><span class="letter" id="letter">&nbsp;</span></div>
     <p class="compare" id="compare"></p>
-    <p class="lowest" id="lowest" hidden>Empty boxes count as 0, so this is the <b>lowest</b> grade the scores you entered can give. It can only go up from here.</p>
+    <p class="lowest" id="lowest" hidden>Your letter grade appears once every box is filled. Until then, empty boxes count as 0, so this is the <b>lowest</b> total the scores you entered can give. It can only go up from here.</p>
     <table>
       <thead><tr><th>Component</th><th class="n">Score</th><th class="n">Points</th></tr></thead>
       <tbody id="rows"></tbody>
@@ -183,8 +183,10 @@
     var noDrop = mids[0] + mids[1] + mids[2] + fin + asg;
 
     $("total").innerHTML = fmt1(total) + ' <small>/ 100</small>';
-    $("letter").textContent = letterOf(total);
-    $("compare").innerHTML = "Without the drop: <b>" + fmt1(noDrop) + " (" + letterOf(noDrop) + ")</b>";
+    // A letter grade only makes sense for a complete set of scores.
+    $("letter").textContent = missing ? "" : letterOf(total);
+    $("letter").hidden = missing;
+    $("compare").innerHTML = "Without the drop: <b>" + fmt1(noDrop) + (missing ? "" : " (" + letterOf(noDrop) + ")") + "</b>";
     $("lowest").hidden = !missing;
 
     var rows = "";
