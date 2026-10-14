@@ -242,4 +242,10 @@ right or wrong, earns nothing.
 <!-- The rest of the extreme values and Lagrange multipliers problems. -->
 <xi:include href="review-problems-4.ptx"/>
 
+<!-- ================= Your Course Grade ================= -->
+<!-- The dropped-midterm rule and a grade calculator. Instructor edition
+     only for now; not in the student book. It sits last so that the
+     worksheets above keep the same numbers as in the student book. -->
+<xi:include href="grade-calculator.ptx"/>
+
 </chapter>
