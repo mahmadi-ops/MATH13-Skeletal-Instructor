@@ -63,9 +63,10 @@ weak first exam simply stops counting.
   <caption>
     Enter your scores to see your course grade with the lowest midterm
     dropped. Leave a box empty for an exam you have not taken yet: empty boxes
-    count as <m>0</m>, so the grade shown is the lowest the scores you entered
-    can give, and while the final is still to come the calculator lists the
-    final exam score each letter grade needs.
+    count as <m>0</m>, so the total shown is the lowest the scores you entered
+    can give, and your letter grade appears once all five scores are entered.
+    While the final is still to come, the calculator lists the final exam
+    score each letter grade needs.
   </caption>
   <interactive xml:id="interactive-grade-calculator"
                iframe="grade-calculator.html"
