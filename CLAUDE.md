@@ -67,6 +67,15 @@ convention). Repo-specific facts:
   the completed-notes ids, is in MATH13-Instructor. It is live, the desk
   script toggles it by the key `exam-2`, and the desk panel does not
   list it.
+- `sample-past-exam-3.ptx` (page `worksheet-sample-past-exam-3.html`) is
+  the instructor's Spring 2026 third midterm with solutions, placed right
+  after Review Problems #3: points in the titles as in Sample Past Exam 1,
+  the four quadric graphs of Question 2 redrawn in TikZ as outlines, its
+  conics question replaced by a conceptual partial-derivatives one and a
+  tangent-plane Question 7 added, both at the instructor's request. The
+  same file, with the completed-notes ids, is in MATH13-Instructor. It is
+  live, the desk script toggles it by the key `sample-past-exam-3`, and the
+  desk panel does not list it.
 - The dropped-midterm rule and the grade calculator that used to be the
   worksheet "Your Course Grade" here now live in the syllabus
   (`mahmadi-ops/MATH13-Syllabus-Fall2026`, subsection
