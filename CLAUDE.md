@@ -76,6 +76,17 @@ convention). Repo-specific facts:
   same file, with the completed-notes ids, is in MATH13-Instructor. It is
   live, the desk script toggles it by the key `sample-past-exam-3`, and the
   desk panel does not list it.
+- `exam-3.ptx` (page `worksheet-exam-3.html`) is this quarter's Exam 3
+  with solutions, transcribed from the instructor's solutions PDF
+  (MATH13-Exam3-Fall2026-Solutions) and placed right after Sample Past
+  Exam 3: five problems worth 20 points and the two optional bonus problems
+  6 and 7 (6 points), points in the titles as on Exams 1 and 2, no formula
+  sheet. The hyperboloid of Problem 4 is drawn in Asymptote and the
+  hyperbola of Problem 7 in PreFigure, at the instructor's request. Its
+  topic links and the link to the Mixed Derivative Theorem point at this
+  book's ids; the same file, with the completed-notes ids, is in
+  MATH13-Instructor. It is live, the desk script toggles it by the key
+  `exam-3`, and the desk panel does not list it.
 - The dropped-midterm rule and the grade calculator that used to be the
   worksheet "Your Course Grade" here now live in the syllabus
   (`mahmadi-ops/MATH13-Syllabus-Fall2026`, subsection
